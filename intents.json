@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "good day", "greetings", "whats up", "how is it going", "hey", "howdy", "hi there", "hello there", "good morning", "good afternoon", "good evening", "hey there", "yo", "hiya", "hiya there", "what's going on", "how's everything", "how's your day", "what's new", "hey friend", "how are you doing", "how's it hanging", "sup", "g'day"],
+            "responses": ["Hello!", "Hey", "What can I do for you"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["goodbye", "bye", "see you later", "farewell", "take care", "have a good one", "so long", "until next time", "bye bye"],
+            "responses": ["Goodbye!", "Farewell", "Take care", "See you later"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you", "what's your age", "age", "when were you born", "birthdate"],
+            "responses": ["I'm just a computer program, so I don't have an age!", "I don't age like humans do.", "I was created recently, so I'm quite young."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name", "who are you", "your name", "what should I call you", "name"],
+            "responses": ["I'm a chatbot and don't have a personal name.", "You can call me ChatBot.", "I go by ChatBot."]
+        },
+        {
+            "tag": "shop",
+            "patterns": ["where can I shop", "any good shops around", "recommend a store", "shop nearby", "favorite store", "best place to shop", "shopping recommendations", "store suggestions"],
+            "responses": ["There are many great shops in the area. What are you looking for?", "I can help you find shops based on your preferences. What are you interested in?", "Tell me what you're looking for, and I'll suggest a suitable shop."]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["what are your hours", "when are you open", "business hours", "operating hours", "hours of operation", "opening hours", "closing hours", "what time do you close", "what time do you open"],
+            "responses": ["Our business hours are 24/7."]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["stock prices", "current market trends", "stock market updates", "how are stocks doing", "latest stock news", "stock recommendations", "investment advice", "stock market performance"],
+            "responses": ["I can provide you with general information on stock market trends. However, for specific stock prices or investment advice, it's recommended to consult a financial professional or use a dedicated financial service.", "For the latest stock market updates, consider checking reputable financial news websites or using dedicated financial apps.", "Investing in stocks involves risks. Make sure to do thorough research or seek advice from a financial advisor before making any investment decisions."]
+        }
+    ]
+}
